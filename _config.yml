@@ -1,0 +1,30 @@
+# Header metadata
+
+# Mind no '/' at the and of url
+url: uslugipogrzebowekrokowa.pl
+
+# Company name
+companyName: Usługi Pogrzebowe Krokowa
+companyFullName: Usługi Pogrzebowe Krokowa - Anna Pipka
+
+title: Usługi Pogrzebowe Krokowa
+description: Usługi Pogrzebowe Krokowa
+keywords: Usługi Pogrzebowe, Usługi Pogrzebowe, Krokowa, Sprzedaż trumien, krzyży, tabliczek, urn, Całodobowy przewóz zmarłych, Obsługa pogrzebu, Kredytowanie pogrzebu, Własna chłodnia (gratis), Odzież dla osoby zmarłej, Kwiaty, Możliwość organizacji różańca (pustej nocy) w kaplicy, Oprawa muzyczna pogrzebu (trąbka) oraz nagłośnienie na cmentarzu, Kremacja
+author: Anna Pipka
+
+google_site_verification: tvJJpVgtQoVAFSHoNGAB5NUpNaonC7qTvXX_KaQNYK0
+google_map_apikey: AIzaSyA0EKWuHUersacG87bmEkcb6r5LYagZy84
+
+analytics: 
+    code: UA-48118584-2
+    domain: uslugipogrzebowekrokowa.pl
+  
+# Social media
+social:
+    gplus: https://plus.google.com/+ZakladPogrzebowyKrokowaPL
+  
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Warsaw
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:title/

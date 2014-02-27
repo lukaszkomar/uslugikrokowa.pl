@@ -1,0 +1,149 @@
+body {
+  /*color: #5a5a5a;*/
+  color: #000;
+  font-size: 18px;
+}
+
+a {
+    /*color: #8644a8;*/
+    color: #7b00bb;
+}
+
+.carousel {
+  position: relative;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: auto;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+.carousel-caption h1, .carousel-caption p{
+    text-shadow: 1px 2px 0px rgba(0,0,0,1);
+}
+.carousel-caption h1 a {
+    color: #fff;
+    font-size: 25px;
+}
+.carousel-caption p {
+    display: none;
+}
+.carousel-indicators {
+   display: none;
+}
+
+
+.sidebar address {
+    text-align: left;
+}
+.sidebar strong {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    display: block;    
+}
+.sidebar a  {
+    padding-left: 35px;
+    background: url(phone.png) top left no-repeat;
+    line-height: 32px;
+    text-decoration: none;
+    display: inline-block;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.sidebar a.location {
+    background-image: url(location.png);
+    line-height: 28px;
+}
+.sidebar a.mobile {
+    background-image: url(mobile.png);
+    font-size: 27px;
+}
+.sidebar a.phone {
+    background-image: url(phone.png);
+    font-size: 27px;
+}
+.sidebar a.mail {
+    background-image: url(mail.png);
+}
+.sidebar a.plus {
+    background-image: url(plus.png);
+}
+
+.sidebar img {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+#map-canvas {
+    margin-top: 20px;
+    width: 100%; 
+    height: 400px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 380px) {
+    .carousel-caption p {
+        display: block;
+    }    
+}
+
+@media (min-width: 768px) {
+
+  /* Bump up size of carousel content */
+    .carousel-caption h1 a {
+        font-size: 36px;
+    }  
+  
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  
+  /* Show indicators */
+  .carousel-indicators {
+     display: block;
+  }  
+
+}
+
+@media (min-width: 992px) {
+    
+    .carousel-caption p strong{
+      font-size: 40px;
+    }
+    
+    .content ul li {
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel .item {
+      height: 500px;
+    }
+}
